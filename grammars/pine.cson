@@ -22,8 +22,4 @@
         'match': '\\b([0-9]+)'
         'name': 'constant.numeric.integer.decimal.pine'
     }
-    {
-        'match': '\\b()\\b'
-        'name': 
-    }
 ]
