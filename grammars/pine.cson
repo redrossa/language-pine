@@ -1,7 +1,29 @@
 'scopeName': 'source.pine'
 'name': 'Pine'
 'fileTypes': ['pine']
-
 'patterns': [
-
+    {
+        'match': '\\b([0-9]+\\.[0-9]+)'
+        'name': 'constant.numeric.float.pine'
+    }
+    {
+        'match': '\\b(0x[0-9A-Fa-f]+)'
+        'name': 'constant.numeric.integer.hexadecimal.pine'
+    }
+    {
+        'match': '\\b(0c[0-7]+)'
+        'name': 'constant.numeric.integer.octal.pine'
+    }
+    {
+        'match': '\\b(0b[0-1]+)'
+        'name': 'constant.numeric.integer.binary.pine'
+    }
+    {
+        'match': '\\b([0-9]+)'
+        'name': 'constant.numeric.integer.decimal.pine'
+    }
+    {
+        'match': '\\b()\\b'
+        'name': 
+    }
 ]
