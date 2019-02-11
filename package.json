@@ -1,6 +1,6 @@
 {
   "name": "language-pine",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Mylanguage language support in Atom",
   "engines": {
     "atom": "*"
