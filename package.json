@@ -6,12 +6,7 @@
     "atom": "*"
   },
   "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/redrossa/language-pine.git"
-  },
-  "bugs": {
-    "url": "https://github.com/redrossa/language-pine/issues"
-  },
+  "repository": "https://github.com/redrossa/language-pine.git",
+  "bugs": "https://github.com/redrossa/language-pine/issues",
   "license": "MIT"
 }
